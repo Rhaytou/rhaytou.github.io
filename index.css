@@ -100,14 +100,14 @@ ul, ol {
     margin: 0 auto;
     outline: none;
     box-shadow: none;
-    border-top: 1px solid #0A192F;
-    border-bottom: 2px solid #0A192F;
+    border-top: 1px solid #CED4DA;
+    border-bottom: 2px solid #3B577A;
     border-left: none;
     border-right: none;
     padding-top: 10%;
     padding-bottom: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
     overflow: hidden;
 
     text-align: center;

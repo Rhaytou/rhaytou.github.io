@@ -19,14 +19,7 @@
     </head>
 
     <body>
-        <h3>Consulting</h3>
-        Technologies Integration: I help organizations seamlessly adopt and integrate cutting-edge technologies into their existing systems. From software and hardware solutions to cloud infrastructure and data platforms, I ensure that each technology aligns with your business goals and operational needs, enabling efficient, scalable, and secure implementation.
-        Reports: I provide clear, actionable reports that translate complex technical and operational data into insights your team can use. Whether it’s performance analytics, system assessments, or technology adoption evaluations, my reports empower decision-makers with the information needed to drive innovation and optimize outcomes.
-
-        <h3>Courses</h3>
-        <h6>Hardware engineering</h6>
-        <p>Duration: 10 days</p>
-        <p>Course structure:</p>
+        <h3>1</h3>
         <ul>
             <li></li>
             <li></li>
@@ -34,12 +27,8 @@
             <li></li>
             <li></li>
         </ul>
-        <p>Price: 11 000 MAD</p>
-        <p>Max student: 20</p>
 
-        <h6>Software engineering</h6>
-        <p>Duration: 10 days</p>
-        <p>Course structure:</p>
+        <h3>2</h3>
         <ul>
             <li></li>
             <li></li>
@@ -47,12 +36,8 @@
             <li></li>
             <li></li>
         </ul>
-        <p>Price: 11 000 MAD</p>
-        <p>Max student: 20</p>
 
-        <h6>Blockchain</h6>
-        <p>Duration: 10 days</p>
-        <p>Course structure:</p>
+        <h3>3</h3>
         <ul>
             <li></li>
             <li></li>
@@ -60,12 +45,8 @@
             <li></li>
             <li></li>
         </ul>
-        <p>Price: 11 000 MAD</p>
-        <p>Max student: 20</p>
 
-        <h6>Ai</h6>
-        <p>Duration: 10 days</p>
-        <p>Course structure:</p>
+        <h3>4</h3>
         <ul>
             <li></li>
             <li></li>
@@ -73,12 +54,8 @@
             <li></li>
             <li></li>
         </ul>
-        <p>Price: 11 000 MAD</p>
-        <p>Max student: 20</p>
 
-        <h6>Quantum computing</h6>
-        <p>Duration: 10 days</p>
-        <p>Course structure:</p>
+        <h3>5</h3>
         <ul>
             <li></li>
             <li></li>
@@ -86,7 +63,5 @@
             <li></li>
             <li></li>
         </ul>
-        <p>Price: 11 000 MAD</p>
-        <p>Max student: 20</p>
     </body>
 </html>

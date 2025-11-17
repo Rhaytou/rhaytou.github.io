@@ -19,10 +19,6 @@
     </head>
 
     <body>
-        <p>Full name: Slimane Rhaytou</p>
-        <p>Professional title: Tech Consultant & Corporate Instructor</p>
-        <p>Phone number: 0 710 943 496</p>
-        <p>Email address: rhaytouslimane@gmail.com</p>
-        <p>Location: Morocco</p>
+        <p>About</p>
     </body>
 </html>

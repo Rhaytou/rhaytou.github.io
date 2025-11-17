@@ -19,10 +19,22 @@
     </head>
 
     <body>
-        <p>Full name: Slimane Rhaytou</p>
-        <p>Professional title: Tech Consultant & Corporate Instructor</p>
-        <p>Phone number: 0 710 943 496</p>
-        <p>Email address: rhaytouslimane@gmail.com</p>
-        <p>Location: Morocco</p>
+        <h3>Send a message</h3>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+        <h3>Information</h3>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
     </body>
 </html>
