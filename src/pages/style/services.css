@@ -1,67 +1,345 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-    <head>
-        <meta charset="utf8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+/* ------------------- */
+/* Reanisialization */
+/* ------------------- */
+:root {
+    --primary-color: #3498db;  /* CSS variable defined */
+    --secondary-color: #e74c3c;
 
-        <link rel="icon" type="image/ico" href="./src/media/icon.ico"/>
+    --font_size_reference: 30px;
+}
 
-        <title>Slimane Rhaytou - Tech Consultant & Corporate Instructor</title>
-        <meta name="description" content="Slimane Rhaytou is a Tech Consultant and Corporate Instructor specializing in software engineering, hardware design, data engineering, cloud infrastructure, and professional technical training. Expert in building scalable systems, teaching advanced technologies, and guiding companies through digital transformation.">
-        <meta name="keywords" content="Slimane Rhaytou, Tech Consultant, Corporate Instructor, Technical Instructor, Software Engineering Consultant, Hardware Engineering Consultant, Data Engineering Expert, Cloud Infrastructure Trainer, AI Consultant, Digital Transformation, Technical Training, Engineering Workshops, Professional Development, Technology Strategy">
-        <meta name="author" content="Slimane Rhaytou">
-        <meta name="publisher" content="Slimane Rhaytou">
-        <meta name="copyright" content="© 2025 Slimane Rhaytou. All rights reserved.">
+*, *::before, *::after{
+    box-sizing: border-box;
 
-        <link rel="stylesheet" href="index.css">
-        <script defer src="index.js"> </script>
-    </head>
+    margin: 0;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    padding: 0;
+}
 
-    <body>
-        <h3>1</h3>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+html {
+    margin: 0;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    padding: 0;
+}
 
-        <h3>2</h3>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+body {
+    width: 100vw;
+    height: 100vh;
 
-        <h3>3</h3>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+    margin: 0;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    padding: 0;
+}
 
-        <h3>4</h3>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+#main {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
 
-        <h3>5</h3>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </body>
-</html>
+    margin: 0;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    padding: 0;
+
+    overflow: hidden;
+}
+
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  /*color: inherit;*/
+  outline: none;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* ------------------- */
+/*  */
+/* ------------------- */
+#header {
+    position: relative;
+    width: 100%;
+    height: 10%;
+
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25); /* Very subtle shadow just for layout contrast */
+
+    border-top: none;
+    border-bottom: 1px solid #CED4DA;
+    border-left: none;
+    border-right: none;
+
+    padding: 0;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #11233F;
+
+    transition: border-bottom-color 0.3s ease; /* Smooth hover animation */
+} #header:hover {
+    border-bottom-color: #F3EAD9;
+}
+
+.nav_header{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    outline: none;
+    box-shadow: none;
+    padding: 0;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_ul_header {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+    padding: 0;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_li_header {
+    position: relative;
+    width: 10%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+    padding: 0;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_link{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #F3EAD9;
+    font-size: 20px;
+    transition: color 0.3s ease, font-size 0.3s ease;
+} .nav_link:hover {
+    color: #B0B6BC;
+    font-size: 21px;
+}
+
+
+/* ------------------- */
+/*  */
+/* ------------------- */
+/* ARTICLE BASE STYLE  */
+#article {
+    position: relative;
+    width: 100%;
+    height: 85%;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+    padding: 5%;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    background-color: #0A192F;
+    text-align: center;
+}
+
+/* SECTION TITLES (H3) */
+#article h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 800;
+    font-size: 30px;
+
+    color: #E6EDF3;
+
+    margin-top: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 0.05em;
+}
+
+/* SUBTITLES (H4)      */
+#article h4 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #C7D3DF;
+
+    margin-top: 25px;
+    margin-bottom: 10px;
+    letter-spacing: 0.04em;
+}
+
+/* PARAGRAPHS          */
+#article p {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 19px;
+    line-height: 1.8;
+
+    color: #D9D9D9;
+
+    width: 85%;
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+}
+
+/* COURSE LISTS        */
+#article ul {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 18px;
+    line-height: 1.7;
+
+    color: #D9D9D9;
+
+    list-style-type: disc;
+    margin: 0 auto 20px auto;
+    padding-left: 40px;  /* keeps bullets aligned */
+    text-align: left;    /* lists MUST be left-aligned for readability */
+}
+
+#article ul li {
+    margin-bottom: 8px;
+}
+
+/* Optional soft separators between course modules */
+#article h4 + p {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------- */
+/*  */
+/* ------------------- */
+#footer {
+    position: relative;
+    width: 100%;
+    height: 5%;
+
+    box-sizing: border-box;
+    margin: auto;
+    outline: none;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+
+    border-top:  1px solid #A0A8B0;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+
+    padding: 0;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #CED4DA;
+
+    transition: border-top-color 0.3s ease; /* Smooth hover animation */
+} #footer:hover {
+    border-top-color: #EAE3D9;
+}
+
+.nav_footer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    outline: none;
+    box-shadow: none;
+    padding: 0;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_ul_footer {
+    position: relative;
+    width: 75%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+    padding: 0;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_li_footer {
+    position: relative;
+    width: 5%;
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.sm_icon {
+    width: 30%;
+} .sm_icon:hover {
+    width: 32%;
+}
+
+
+
+
