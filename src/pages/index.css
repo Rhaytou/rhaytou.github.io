@@ -269,6 +269,68 @@ ul, ol {
 
 
 
+/* ------------------- */
+/* Logo */
+/* ------------------- */
+
+
+
+
+
+
+
+
+/* ------------------- */
+/* Multilanguaes */
+/* ------------------- */
+.lang-switch {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(6px);
+  padding: 6px 14px;
+  border-radius: 10px;
+
+  font-family: sans-serif;
+  font-size: 14px;
+
+  display: flex;
+  gap: 6px;
+  align-items: center;
+
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+
+/* Normal state */
+.lang-switch a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+/* Hover */
+.lang-switch a:hover {
+  color: #007acc;
+}
+
+/* Highlight active (current language) */
+.lang-switch a.active {
+  color: white;
+  background: #007acc;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
 
 
 
