@@ -1,2 +1,0 @@
-# rhaytou.github.io
-Portfolio

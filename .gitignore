@@ -1,47 +1,38 @@
-# Ignore OS-specific files
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Vite cache
+.vite/
+
+# Environment variables
+.env
+.env.*
+
+# OS files
 .DS_Store
 Thumbs.db
 
-# Ignore temporary files
-*.log
-*.tmp
-*.swp
-
-# Ignore build and output directories
-build/
-dist/
-out/
-bin/
-obj/
-
-# Ignore dependency directories
-node_modules/
-vendor/
-envName/
-
-# Ignore environment and secret files
-.env
-.env.*
-*.secret
-
-# Ignore compiled files
-*.pyc
-__pycache__/
-*.class
-*.o
-*.so
-*.exe
-
-.pio/
-
-# Ignore IDE/editor settings
+# Editor settings
 .vscode/
 .idea/
-*.iml
 
-# Ignore backups
-*.bak
-*.old
+# Logs
+*.log
+
+# Misc
+project_dump.txt
+
+
+
+
+
+
+
+
+
 
 
 

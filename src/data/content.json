@@ -1,0 +1,288 @@
+{
+  "meta": {
+    "author": "Slimane Rhaytou",
+    "version": "1.0.0",
+    "last_updated": "2026-02-27"
+  },
+
+  "about": {
+    "name": "Slimane Rhaytou",
+    "title": "Blockchain Fullstack Developer & Tech Consultant",
+    "tagline": "Building at the intersection of cryptographic systems, distributed infrastructure, and modern software engineering.",
+    "bio": "I am a self-driven engineer with an unconventional but deliberate path. My academic background spans accounting, music education, and a Master's in Arts & Cultural Management — disciplines that sharpened my analytical thinking, structured creativity, and ability to communicate complex ideas with clarity. In 2024, I completed the ALX Software Engineering Programme with a specialisation in back-end development, formalising years of self-taught systems work into a rigorous professional foundation. Today, I focus on blockchain infrastructure and fullstack development, working from first principles — implementing cryptographic primitives, building Bitcoin and Ethereum toolkits from scratch, and orchestrating multi-node distributed systems. I bring to every project the same discipline I applied to music theory and the same precision I cultivated in accounting: nothing is taken for granted, everything is understood.",
+    "location": "Rabat, Morocco",
+    "availability": "Open to remote and on-site opportunities",
+    "education": [
+      {
+        "year": 2024,
+        "degree": "Certificate in Software Engineering — Back-end Specialisation",
+        "institution": "ALX Software Engineering Programme"
+      },
+      {
+        "year": 2022,
+        "degree": "Second Cycle Diploma — Solfège",
+        "institution": "Conservatoire National de Musique et de Danse d'Art Chorégraphique de Rabat"
+      },
+      {
+        "year": 2020,
+        "degree": "Second Cycle Diploma — Double Bass",
+        "institution": "Conservatoire National de Musique et de Danse d'Art Chorégraphique de Rabat"
+      },
+      {
+        "year": 2020,
+        "degree": "Master's — Aesthetic Education & Arts and Culture Management",
+        "institution": "Faculté des Sciences de l'Éducation"
+      },
+      {
+        "year": 2018,
+        "degree": "Bachelor's — Music Education & Musical Structures",
+        "institution": "Faculté des Sciences de l'Éducation"
+      },
+      {
+        "year": 2015,
+        "degree": "Bachelor's — Accounting & Management, Specialisation: Audit",
+        "institution": "ISGA (Université de Senghor)"
+      },
+      {
+        "year": 2008,
+        "degree": "Baccalaureate — Experimental Sciences, Specialisation: Physics",
+        "institution": "Lycée Ibn Batouta"
+      }
+    ],
+    "experience": [
+      {
+        "role": "Tech Consultant & Freelance Developer",
+        "company": "Independent",
+        "period": "September 2024 — Present",
+        "description": "Providing technical consulting and blockchain development services to clients, bridging deep protocol-level knowledge with practical fullstack delivery."
+      },
+      {
+        "role": "Professor — Culture, Art & Communication",
+        "company": "Les Lumières High School",
+        "period": "September 2020 — Present",
+        "description": "Teaching communication, cultural studies, and arts disciplines. Developing curriculum and fostering critical thinking in students."
+      },
+      {
+        "role": "Communication Consultant",
+        "company": "MLA Event Organisation",
+        "period": "April 2018 — March 2020",
+        "description": "Led strategic communication and event planning operations, managing client relationships and coordinating multi-stakeholder productions."
+      }
+    ]
+  },
+
+  "skills": {
+    "blockchain": {
+      "label": "Blockchain Engineering",
+      "description": "Deep, protocol-level expertise in Bitcoin and Ethereum, built from first principles rather than abstraction layers.",
+      "items": [
+        { "name": "Bitcoin Protocol", "detail": "RPC client, wallet derivation (BIP-32/39/44), raw transaction serialization, PSBT, UTXO management, script types (P2PKH, P2WPKH)" },
+        { "name": "Ethereum Protocol", "detail": "JSON-RPC client, EIP-55 address derivation, Keccak-256, ABI encoding, function selectors, event topics, EIP-1559 (Type 2) transactions, EIP-2930 access lists" },
+        { "name": "Cryptographic Primitives", "detail": "SECP256K1 curve arithmetic, HMAC-SHA512, BIP-32 child key derivation (normal & hardened), AES-128 mnemonic encryption" },
+        { "name": "Node Infrastructure", "detail": "Running full Bitcoin nodes and Ethereum execution+consensus client pairs (Geth + Prysm), post-merge architecture, JWT authentication between layers" },
+        { "name": "Wallet Engineering", "detail": "HD wallet construction, BIP-39 seed generation, master key derivation, encrypted mnemonic storage" },
+        { "name": "Transaction Engineering", "detail": "Raw legacy and SegWit transaction construction, SIGHASH types, coinbase transactions, type-0/1/2 Ethereum transactions" },
+        { "name": "Web3 Frontend", "detail": "React + Vite dashboards connected to live Bitcoin and Ethereum nodes via RPC, block explorers, real-time chain data" }
+      ]
+    },
+    "software_engineering": {
+      "label": "Software Engineering",
+      "description": "Full-stack capability across backend systems, frontend interfaces, APIs, testing, and containerised deployment.",
+      "items": [
+        { "name": "Python", "detail": "Backend systems, RPC clients, cryptographic toolkits, Flask REST APIs, dataclasses, dotenv config management" },
+        { "name": "JavaScript / React", "detail": "React + Vite frontends, component architecture, CSS modules, Vitest unit testing, fetch-based RPC clients" },
+        { "name": "Systems Programming", "detail": "C, C++, Rust, Go — working implementations across multiple paradigms" },
+        { "name": "Assembly", "detail": "x86-64, ARM, RISC-V — low-level programming for learning and embedded targets" },
+        { "name": "Java", "detail": "Android app development from raw toolchain (javac, dx, adb) without Android Studio" },
+        { "name": "Bash / Shell Scripting", "detail": "Automation scripts, Makefiles, project tooling, Docker entrypoints" },
+        { "name": "Testing", "detail": "pytest with deterministic test vectors, BIP-32 known-vector validation, Vitest with mocked fetch, round-trip encryption tests" },
+        { "name": "Docker & DevOps", "detail": "Multi-service Docker Compose stacks, Dockerfiles for multiple targets, Nginx reverse proxies and load balancers, healthchecks, logging drivers" },
+        { "name": "API Design", "detail": "RESTful Flask backends, route/controller separation, JSON-RPC 2.0 protocol" }
+      ]
+    },
+    "hardware_engineering": {
+      "label": "Hardware & Embedded Engineering",
+      "description": "Hands-on embedded systems work spanning microcontrollers, FPGAs, signal analysis, and cross-platform hardware access.",
+      "items": [
+        { "name": "Microcontrollers", "detail": "Arduino, ESP32, STM32, PIC — firmware development with PlatformIO and native toolchains" },
+        { "name": "FPGA", "detail": "Xilinx Spartan-6 — hardware description and programming" },
+        { "name": "Single-Board Computers", "detail": "Raspberry Pi — Linux-based embedded deployments" },
+        { "name": "Hardware Interfaces", "detail": "GPIO, UART, I2C, SPI, JTAG, SWD — logic analysis and protocol monitoring" },
+        { "name": "Signal & RF Analysis", "detail": "Software-defined radio (SDR), USB/UART monitoring, network packet capture" },
+        { "name": "Cross-Platform Device Access", "detail": "ADB for Android hardware access, USB hot-plug via udev, privileged Docker containers for hardware passthrough" },
+        { "name": "Containerised Toolchains", "detail": "Dockerised build environments for PlatformIO, PIC compiler, network monitors — fully reproducible across machines" }
+      ]
+    },
+    "data_engineering": {
+      "label": "Data Engineering",
+      "description": "Structured data handling at the protocol level, from blockchain state queries to chain analytics pipelines.",
+      "items": [
+        { "name": "Blockchain Data Querying", "detail": "Live querying of Bitcoin mempool, UTXO sets, block headers, transaction trees, and Ethereum state via JSON-RPC" },
+        { "name": "Data Serialization", "detail": "Binary serialization of Bitcoin transactions (varint, little-endian encoding), Ethereum ABI encoding/decoding" },
+        { "name": "Configuration Management", "detail": "Environment-based config with typed dataclasses, immutable singletons, strict validation — no hardcoded values" },
+        { "name": "Data Pipelines", "detail": "Backend controllers that aggregate multi-chain data from independent nodes, normalize responses, and serve unified REST endpoints" },
+        { "name": "Log Management", "detail": "Docker json-file logging with rotation, structured error handling and propagation across service layers" }
+      ]
+    }
+  },
+
+  "projects": [
+    {
+      "id": "bitcoin-dev-kit",
+      "title": "Bitcoin Dev Kit",
+      "slug": "bitcoin-dev-kit",
+      "category": "Blockchain",
+      "tags": ["Bitcoin", "Python", "React", "Docker", "BIP-32", "BIP-39", "Cryptography"],
+      "summary": "A full Bitcoin development toolkit built from first principles — covering node infrastructure, wallet derivation, raw transaction construction, and a React block explorer dashboard.",
+      "description": "The Bitcoin Dev Kit is a modular, production-grade toolkit for interacting with the Bitcoin protocol at every layer. The core module implements BIP-39 mnemonic generation and AES-128 encryption, BIP-32 master key and hardened/normal child key derivation verified against official test vectors, and BIP-44 hierarchical deterministic wallet paths. The transaction engine constructs legacy raw transactions from scratch — serialising TxInput and TxOutput objects with correct varint encoding, SIGHASH flags, and little-endian byte ordering. A Python RPC client exposes the full Bitcoin Core JSON-RPC API surface. The Bitcoin node is containerised with Docker, fronted by an Nginx load balancer, and supports all network modes (mainnet, testnet3, testnet4, regtest, signet). The React + Vite GUI connects to the live node and renders real-time blockchain data through a dashboard block explorer. All modules are covered by pytest suites with deterministic known-vector assertions.",
+      "highlights": [
+        "BIP-32/39/44 HD wallet derivation implemented from scratch against official test vectors",
+        "Raw Bitcoin transaction serialization at byte level with full SIGHASH type support",
+        "Dockerised Bitcoin Core node with Nginx load balancer across all network modes",
+        "React + Vite block explorer dashboard connected to live Bitcoin RPC",
+        "Full pytest coverage with cryptographic known-vector validation"
+      ],
+      "tech_stack": {
+        "backend": ["Python", "Bitcoin Core RPC", "pytest"],
+        "frontend": ["React", "Vite", "JavaScript", "Vitest"],
+        "infrastructure": ["Docker", "Docker Compose", "Nginx", "Makefile"]
+      },
+      "status": "Completed"
+    },
+    {
+      "id": "ethereum-dev-kit",
+      "title": "Ethereum Dev Kit",
+      "slug": "ethereum-dev-kit",
+      "category": "Blockchain",
+      "tags": ["Ethereum", "Python", "React", "Docker", "EIP-1559", "Cryptography", "Geth", "Prysm"],
+      "summary": "A complete Ethereum development toolkit covering post-merge node infrastructure, HD wallet derivation, ABI encoding, and multi-type transaction construction — all implemented from the ground up.",
+      "description": "The Ethereum Dev Kit mirrors and extends the Bitcoin Dev Kit with full coverage of the Ethereum protocol stack. The crypto module implements Keccak-256 hashing, EIP-55 checksummed address derivation, ABI function selector and event topic encoding — all without relying on high-level frameworks. The wallet engine applies the same BIP-32/39/44 derivation pipeline, sharing test vectors with the Bitcoin kit to validate cross-chain consistency. The transaction engine constructs all three Ethereum transaction types: legacy (Type 0), EIP-2930 access list (Type 1), and EIP-1559 dynamic fee (Type 2) — including ETH transfers, contract deployments, and contract interactions. The node infrastructure runs a post-merge Ethereum stack with Geth (execution layer) and Prysm (consensus layer) communicating via JWT authentication over the Engine API. An Nginx load balancer sits in front of the RPC endpoint. The React + Vite frontend renders an Ethereum block explorer dashboard. Python and JavaScript RPC clients are both fully tested.",
+      "highlights": [
+        "Post-merge Ethereum node: Geth (EL) + Prysm (CL) with JWT Engine API authentication",
+        "All three Ethereum transaction types constructed from scratch (Type 0, 1, 2)",
+        "Keccak-256, EIP-55 checksum addresses, ABI function selectors and event topics",
+        "BIP-32/39/44 wallet derivation shared with Bitcoin kit and validated against same test vectors",
+        "React + Vite Ethereum block explorer with live RPC integration"
+      ],
+      "tech_stack": {
+        "backend": ["Python", "Geth", "Prysm", "pytest", "eth_keys", "eth_utils"],
+        "frontend": ["React", "Vite", "JavaScript", "Vitest"],
+        "infrastructure": ["Docker", "Docker Compose", "Nginx", "JWT", "Makefile"]
+      },
+      "status": "Completed"
+    },
+    {
+      "id": "multichain-block-explorer",
+      "title": "Multichain Block Explorer",
+      "slug": "multichain-block-explorer",
+      "category": "Blockchain",
+      "tags": ["Bitcoin", "Ethereum", "Python", "Flask", "React", "Docker", "Nginx", "Fullstack"],
+      "summary": "A production-style fullstack application that unifies Bitcoin and Ethereum node data behind a single Flask API and React dashboard — fully orchestrated with Docker Compose.",
+      "description": "The Multichain Block Explorer is the capstone project that brings the Bitcoin and Ethereum dev kits together into a single, deployable fullstack application. The Python/Flask backend exposes a unified REST API with separate controller and routing layers, proxying requests to both Bitcoin Core and Ethereum (Geth) nodes through dedicated blockchain client modules. The React + Vite frontend renders independent Bitcoin and Ethereum block explorer views within a shared dashboard layout, fetching data from the Flask backend rather than directly from nodes. The infrastructure layer orchestrates five Docker services: the Flask application server (served via Gunicorn), the Bitcoin Core node, the Ethereum execution node (Geth), the Ethereum consensus node (Prysm), and an Nginx load balancer routing all traffic. Both Python and JavaScript RPC clients are covered by independent test suites. The project demonstrates end-to-end system design from protocol-level node communication through API design to polished frontend delivery.",
+      "highlights": [
+        "Unified REST API aggregating live Bitcoin and Ethereum node data",
+        "Five-service Docker Compose stack: Flask, Bitcoin node, Geth, Prysm, Nginx",
+        "Separated controller/route architecture in Flask backend",
+        "Dual-chain React dashboard with Bitcoin and Ethereum explorer views",
+        "Independent test suites for Python (pytest) and JavaScript (Vitest) RPC clients"
+      ],
+      "tech_stack": {
+        "backend": ["Python", "Flask", "Gunicorn", "Bitcoin Core RPC", "Geth JSON-RPC", "pytest"],
+        "frontend": ["React", "Vite", "JavaScript", "Vitest"],
+        "infrastructure": ["Docker", "Docker Compose", "Nginx", "Makefile"]
+      },
+      "status": "Completed"
+    },
+    {
+      "id": "embedded-workbench",
+      "title": "Embedded Workbench",
+      "slug": "embedded-workbench",
+      "category": "Hardware Engineering",
+      "tags": ["Embedded", "Docker", "PlatformIO", "ESP32", "Arduino", "STM32", "PIC", "FPGA", "Raspberry Pi", "C", "C++"],
+      "summary": "A containerised embedded development environment covering hardware programming, protocol analysis, and device monitoring across a wide range of microcontrollers, FPGAs, and single-board computers.",
+      "description": "The Embedded Workbench is a self-contained, Dockerised workspace designed to make embedded development fully reproducible and portable. It is divided into three functional layers: hardware programming (PlatformIO for Arduino, ESP32, and STM32; native toolchain for PIC; Xilinx Spartan-6 FPGA; Raspberry Pi), hardware analysis (GPIO/UART/I2C/SPI logic analyser, USB/UART/JTAG/SWD monitor, network packet monitor, software-defined radio capture), and hardware access (Android via raw ADB toolchain — compiling and deploying APKs without Android Studio; cross-platform stubs for iOS, Linux, macOS, Windows). Each environment runs in a privileged Docker container with direct device passthrough via udev, host networking for OpenOCD and GDB debugging, and SSH access for remote development. The project demonstrates the breadth of hardware knowledge underpinning the software and blockchain work.",
+      "highlights": [
+        "Dockerised toolchains for PlatformIO (Arduino, ESP32, STM32), PIC compiler, and FPGA",
+        "Hardware analysis containers with GPIO, UART, I2C, SPI, JTAG, SWD, SDR, and network monitoring",
+        "Android app development from raw toolchain — no Android Studio, direct ADB deployment",
+        "Privileged Docker containers with udev hot-plug, host networking, and SSH access",
+        "Fully reproducible embedded environments across any Linux host"
+      ],
+      "tech_stack": {
+        "languages": ["C", "C++", "Java", "Bash"],
+        "platforms": ["Arduino", "ESP32", "STM32", "PIC", "Spartan-6 FPGA", "Raspberry Pi", "Android"],
+        "tools": ["PlatformIO", "OpenOCD", "GDB", "ADB", "rtl_sdr"],
+        "infrastructure": ["Docker", "Docker Compose", "Nginx", "Makefile", "udev"]
+      },
+      "status": "Completed"
+    },
+    {
+      "id": "lang-workbench",
+      "title": "Language Workbench",
+      "slug": "lang-workbench",
+      "category": "Software Engineering",
+      "tags": ["Python", "Rust", "Go", "C", "C++", "Java", "Assembly", "ARM", "RISC-V", "x86-64", "Docker"],
+      "summary": "A containerised polyglot programming environment with working reference implementations across thirteen languages and architectures — from high-level scripting to bare-metal assembly.",
+      "description": "The Language Workbench is a personal engineering environment built for deep, first-principles fluency across programming languages and architectures. It houses working implementations in Python, JavaScript, Java, C, C++, C#, Go, Rust, PHP, Bash, and three assembly dialects — x86-64, ARM, and RISC-V. Each language lives in a dedicated source file within a shared Docker container, giving a single, reproducible workspace for cross-language experimentation and reference. A Makefile-driven build system allows running any language with a single command. The project reflects a philosophy of understanding the full stack from register-level computation to high-level abstractions — the same philosophy that drives writing Bitcoin transaction serialisation or Ethereum ABI encoding from scratch rather than reaching for a library.",
+      "highlights": [
+        "Working implementations in 13 languages: Python, JS, Java, C, C++, C#, Go, Rust, PHP, Bash, x86-64, ARM, RISC-V",
+        "Single Dockerised environment with Makefile-driven build for all languages",
+        "Covers the full stack from assembly to scripting languages",
+        "Foundation for the low-level intuition demonstrated in blockchain and embedded projects"
+      ],
+      "tech_stack": {
+        "languages": ["Python", "JavaScript", "Java", "C", "C++", "C#", "Go", "Rust", "PHP", "Bash", "x86-64 ASM", "ARM ASM", "RISC-V ASM"],
+        "infrastructure": ["Docker", "Docker Compose", "Makefile"]
+      },
+      "status": "Completed"
+    }
+  ],
+
+  "services": [
+    {
+      "id": "blockchain-consulting",
+      "title": "Blockchain Tech Consulting",
+      "icon": "consulting",
+      "tagline": "From protocol to product — strategic and technical guidance for teams building on Bitcoin and Ethereum.",
+      "description": "I help companies, startups, and development teams navigate the technical complexity of blockchain integration. Whether you are evaluating which chain to build on, designing a custody or wallet architecture, reviewing smart contract security, or planning the infrastructure for a multi-node deployment — I bring protocol-level knowledge and fullstack implementation experience to the table. Unlike consulting that stops at the whiteboard, I can take recommendations all the way to working code.",
+      "offerings": [
+        "Blockchain architecture design and chain selection advisory",
+        "Bitcoin and Ethereum node infrastructure planning and setup",
+        "Wallet and key management architecture review",
+        "Transaction flow design (legacy, SegWit, EIP-1559, PSBT)",
+        "Technical due diligence for blockchain projects",
+        "Developer onboarding and internal training on Bitcoin/Ethereum protocols"
+      ]
+    },
+    {
+      "id": "blockchain-fullstack-development",
+      "title": "Fullstack Blockchain Development",
+      "icon": "development",
+      "tagline": "End-to-end delivery — from Bitcoin and Ethereum infrastructure to polished web interfaces.",
+      "description": "I design and build complete blockchain applications from the ground up. My approach is to own the full stack: running and configuring nodes, building backend APIs that interface with them, implementing cryptographic operations correctly, and delivering clean React frontends that surface chain data to users. I work with Python and JavaScript across the stack, containerise everything with Docker, and write tests that validate behaviour at every layer — from cryptographic primitives to HTTP responses.",
+      "offerings": [
+        "Bitcoin and Ethereum node deployment and configuration (mainnet, testnet, regtest)",
+        "Python and Node.js backend development with JSON-RPC integration",
+        "HD wallet and key management module development",
+        "Raw transaction construction and signing pipelines",
+        "React + Vite blockchain dashboard and block explorer UIs",
+        "Docker Compose infrastructure for multi-node, multi-service deployments",
+        "RPC client libraries with full test coverage (pytest, Vitest)"
+      ]
+    }
+  ],
+
+  "contact": {
+    "full_name": "Slimane Rhaytou",
+    "email": "rhaytouslimane@gmail.com",
+    "phone": "+212 710 943 496",
+    "location": "Rabat, Morocco",
+    "availability": "Open to remote work worldwide and on-site opportunities in Morocco",
+    "social": {
+      "github": "",
+      "linkedin": "",
+      "twitter": ""
+    },
+    "cta": "Have a project in mind or looking for a blockchain developer? Let's talk."
+  }
+}

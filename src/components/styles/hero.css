@@ -1,0 +1,194 @@
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: linear-gradient(
+    160deg,
+    var(--navy-deep) 0%,
+    var(--navy-dark) 55%,
+    #0B1E35 100%
+  );
+}
+
+.hero-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+}
+
+/* Left vertical accent line */
+.hero-line-left {
+  position: absolute;
+  left: calc(var(--section-pad-h) - 2.5rem);
+  top: 15%;
+  bottom: 15%;
+  width: 1px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--border-mid) 30%,
+    var(--border-mid) 70%,
+    transparent
+  );
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 var(--section-pad-h);
+  padding-top: 5rem;
+}
+
+/* Eyebrow */
+.hero-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--steel-light);
+  margin-bottom: 1.8rem;
+}
+
+/* Name */
+.hero-name {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(3.5rem, 9vw, 7.5rem);
+  line-height: 1.0;
+  letter-spacing: -0.01em;
+  color: var(--parchment);
+}
+
+/* Divider */
+.hero-divider {
+  width: 4rem;
+  height: 1px;
+  background: linear-gradient(to right, var(--gold-dim), transparent);
+  margin: 1.4rem 0;
+}
+
+/* Title */
+.hero-title {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.1rem, 2.2vw, 1.65rem);
+  color: var(--steel-light);
+  letter-spacing: 0.03em;
+  margin-bottom: 1.4rem;
+}
+
+/* Tagline */
+.hero-tagline {
+  font-family: var(--font-body);
+  font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+  color: var(--text-secondary);
+  line-height: 1.8;
+  max-width: 560px;
+  margin-bottom: 2.8rem;
+}
+
+/* CTA Buttons */
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background: var(--navy-light);
+  border: 1px solid var(--border-mid);
+  color: var(--parchment);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.15em;
+  text-transform: lowercase;
+  transition: background 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: var(--navy-accent);
+  border-color: var(--parchment);
+  color: var(--warm-white);
+}
+
+.btn-ghost {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background: transparent;
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.15em;
+  text-transform: lowercase;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-ghost:hover {
+  border-color: var(--border-strong);
+  color: var(--parchment);
+}
+
+/* Scroll cue */
+.hero-scroll-cue {
+  position: absolute;
+  bottom: 2.5rem;
+  left: var(--section-pad-h);
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  z-index: 1;
+}
+
+.scroll-label {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  writing-mode: vertical-rl;
+}
+
+.scroll-bar {
+  width: 1px;
+  height: 3rem;
+  background: var(--border-subtle);
+  overflow: hidden;
+}
+
+.scroll-bar-inner {
+  width: 100%;
+  height: 50%;
+  background: var(--steel-light);
+  animation: scrollCue 2s ease-in-out infinite;
+}
+
+@keyframes scrollCue {
+  0%   { transform: translateY(-100%); }
+  50%  { transform: translateY(100%); }
+  100% { transform: translateY(200%); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-line-left  { display: none; }
+  .hero-scroll-cue { display: none; }
+  .hero-content    { padding-top: 7rem; }
+}
+
+
+
