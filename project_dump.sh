@@ -1,16 +1,16 @@
 #!/bin/bash
 
 # =============================================================================
-# dump_project.sh
+# project_dump.sh
 # Dumps the entire project into a single structured file for AI review.
-# Place this script in the root of your project and run: bash dump_project.sh
+# Place this script in the root of your project and run: bash project_dump.sh
 # =============================================================================
 
-OUTPUT_FILE="project_dump.txt"
-SCRIPT_NAME="dump_project.sh"
+OUTPUT_FILE="portfolio_app.txt"
+SCRIPT_NAME="project_dump.sh"
 
 # Folders and patterns to ignore
-IGNORE_DIRS=("node_modules" "__pycache__" ".git" "envName" ".mypy_cache" ".pytest_cache" "dist" "build" ".next" ".venv"  ".env" "package-lock.json" "bitcoin-30.2")
+IGNORE_DIRS=("node_modules" "portfolio_app" "__pycache__" ".git" "envName" ".mypy_cache" ".pytest_cache" "dist" "build" ".next" ".venv"  ".env" "package-lock.json" "bitcoin-30.2")
 
 # File extensions to skip (binaries, images, etc.)
 SKIP_EXTENSIONS=("png" "jpg" "jpeg" "gif" "svg" "ico" "pdf" "zip" "tar" "gz" "exe" "bin" "woff" "woff2" "ttf" "eot" "pyc" "pyo" "db" "sqlite" "lock")

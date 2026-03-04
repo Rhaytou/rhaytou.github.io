@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import './styles/projects.css';
 
 const CATEGORY_COLORS = {
-  'Blockchain':         '#3B577A',
+  'Blockchain':           '#3B577A',
   'Hardware Engineering': '#2A5A4A',
   'Software Engineering': '#4A3B6A',
 };
@@ -35,6 +35,7 @@ function ProjectCard({ project, index }) {
       style={{ animationDelay: `${index * 0.1}s`, '--accent': accentColor }}
     >
       <div className="project-card-inner">
+
         {/* Top row */}
         <div className="project-meta">
           <span className="project-index">{String(index + 1).padStart(2, '0')}</span>
@@ -70,6 +71,18 @@ function ProjectCard({ project, index }) {
 
         {/* Expanded content */}
         <div className={`project-expanded ${open ? 'open' : ''}`}>
+
+          {/* Project image */}
+          {project.image && (
+            <div className="project-image-wrap">
+              <img
+                src={project.image}
+                alt={`${project.title} preview`}
+                className="project-image"
+              />
+            </div>
+          )}
+
           <p className="project-description">{project.description}</p>
 
           <div className="project-highlights">
@@ -89,6 +102,20 @@ function ProjectCard({ project, index }) {
               ))}
             </div>
           </div>
+
+          {/* Repository link */}
+          {project.repo_url && (
+            <a
+              href={project.repo_url}
+              className="project-repo-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>View Repository</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+          )}
+
         </div>
       </div>
     </article>
@@ -127,7 +154,6 @@ function Projects({ data }) {
 }
 
 export default Projects;
-
 
 
 

@@ -241,5 +241,44 @@
   .project-card-inner { padding: 1.4rem 1.2rem; }
 }
 
+/* Project image */
+.project-image-wrap {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border-subtle);
+  overflow: hidden;
+}
 
+.project-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.4s var(--ease-out);
+}
+
+.project-image-wrap:hover .project-image {
+  transform: scale(1.02);
+}
+
+/* Repository link */
+.project-repo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  padding: 0.65rem 1.6rem;
+  border: 1px solid var(--border-mid);
+  color: var(--steel-light);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: lowercase;
+  transition: border-color 0.3s ease, color 0.3s ease, background 0.3s ease;
+}
+
+.project-repo-link:hover {
+  border-color: var(--parchment);
+  color: var(--parchment);
+  background: rgba(243, 234, 217, 0.04);
+}
 

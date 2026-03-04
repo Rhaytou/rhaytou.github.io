@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import './styles/skills.css';
 
-const CATEGORY_ORDER = ['blockchain', 'software_engineering', 'hardware_engineering', 'data_engineering'];
+const CATEGORY_ORDER = ['blockchain', 'software_engineering', 'data_engineering', 'hardware_engineering'];
 
 function useRevealOnScroll(ref) {
   const [visible, setVisible] = useState(false);
@@ -19,7 +19,7 @@ function useRevealOnScroll(ref) {
 function SkillCategory({ category, index }) {
   const ref = useRef(null);
   const visible = useRevealOnScroll(ref);
-  const [expanded, setExpanded] = useState(index === 0);
+  const [expanded, setExpanded] = useState(false);
 
   return (
     <div
@@ -95,17 +95,3 @@ function Skills({ data }) {
 }
 
 export default Skills;
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -14,29 +14,26 @@ function useReveal(ref) {
   return visible;
 }
 
-const SOCIAL_LINKS = [
-  {
-    name: 'GitHub',
-    url: 'https://github.com/Rhaytou',
-    label: 'github.com/Rhaytou',
-  },
-  {
-    name: 'Twitter / X',
-    url: 'https://x.com/Slimane_Rhaytou',
-    label: 'x.com/Slimane_Rhaytou',
-  },
-  {
-    name: 'TradingView',
-    url: 'https://tradingview.com/u/Slimane-Rhaytou',
-    label: 'tradingview.com/u/Slimane-Rhaytou',
-  },
-];
+const SOCIAL_LABELS = {
+  github:      'GitHub',
+  twitter:     'Twitter / X',
+  tradingview: 'TradingView',
+  linkedin:    'LinkedIn',
+};
 
 function Contact({ data }) {
   const headerRef = useRef(null);
   const cardRef   = useRef(null);
   const headerVis = useReveal(headerRef);
   const cardVis   = useReveal(cardRef);
+
+  const socialLinks = Object.entries(data.social || {})
+    .filter(([, value]) => value)
+    .map(([key, value]) => ({
+      name:  SOCIAL_LABELS[key] || key,
+      url:   `https://${value}`,
+      label: value,
+    }));
 
   return (
     <section id="contact" className="contact-section">
@@ -76,10 +73,10 @@ function Contact({ data }) {
             </div>
           </div>
 
-          {/* Social links */}
+          {/* Social links — driven by data.social */}
           <div className="contact-social">
             <p className="contact-info-label">Online</p>
-            {SOCIAL_LINKS.map(link => (
+            {socialLinks.map(link => (
               <a
                 key={link.name}
                 href={link.url}
@@ -97,11 +94,11 @@ function Contact({ data }) {
         </div>
       </div>
 
-      {/* Footer line */}
+      {/* Footer */}
       <footer className="site-footer">
         <div className="section-container">
           <div className="footer-inner">
-            <span className="footer-name">Slimane Rhaytou</span>
+            <span className="footer-name">{data.full_name}</span>
             <span className="footer-copy">
               © {new Date().getFullYear()} — All rights reserved
             </span>
@@ -116,5 +113,3 @@ function Contact({ data }) {
 }
 
 export default Contact;
-
-
