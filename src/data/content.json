@@ -148,7 +148,7 @@
               "infrastructure": ["Docker", "Docker Compose", "Nginx", "Makefile"]
             },
             "status": "Completed",
-            "image": "/assets/bitcoin-dev-kit.webp",
+            "image": "/assets/bitcoin-dev-kit.png",
             "repo_url": "https://github.com/Rhaytou/bitcoin-dev-kit"
         },
 
@@ -173,7 +173,7 @@
                 "infrastructure": ["Docker", "Docker Compose", "Nginx", "JWT", "Makefile"]
             },
             "status": "Completed",
-            "image": "/assets/ethereum-dev-kit.webp",
+            "image": "/assets/ethereum-dev-kit.png",
             "repo_url": "https://github.com/Rhaytou/ethereum-dev-kit"
         },
         {
@@ -197,7 +197,7 @@
                 "infrastructure": ["Docker", "Docker Compose", "Nginx", "Makefile"]
             },
             "status": "Completed",
-            "image": "/assets/multichain-block-explorer.webp",
+            "image": "/assets/multichain-block-explorer.png",
             "repo_url": "https://github.com/Rhaytou/multichain-block-explorer"
         },
         {
@@ -222,7 +222,7 @@
                 "infrastructure": ["Docker", "Docker Compose", "Nginx", "Makefile", "udev"]
             },
             "status": "Completed",
-            "image": "/assets/embedded-workbench.webp",
+            "image": "/assets/embedded-workbench.png",
             "repo_url": "https://github.com/Rhaytou/embedded-workbench"
         },
         {
@@ -244,7 +244,7 @@
                 "infrastructure": ["Docker", "Docker Compose", "Makefile"]
             },
             "status": "Completed",
-            "image": "/assets/lang-workbench.webp",
+            "image": "/assets/lang-workbench.png",
             "repo_url": "https://github.com/Rhaytou/lang-workbench"
         }
     ],
