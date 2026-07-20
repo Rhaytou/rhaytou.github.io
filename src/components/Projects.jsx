@@ -137,8 +137,8 @@ function Projects({ data }) {
           <p className="section-label">Work</p>
           <h2 className="section-title">Projects</h2>
           <p className="section-subtitle">
-            Five systems built from scratch — each one a layer deeper than
-            the last, from embedded hardware to live blockchain infrastructure.
+            Six systems built from scratch — each one a layer deeper than
+            the last, from embedded hardware to live blockchain and Ai infrastructure.
           </p>
         </div>
 

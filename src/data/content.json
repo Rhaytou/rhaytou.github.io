@@ -169,7 +169,9 @@
         "tools": ["PlatformIO", "OpenOCD", "GDB", "ADB", "rtl_sdr"],
         "infrastructure": ["Docker", "Docker Compose", "Nginx", "Makefile", "udev"]
       },
-      "status": "Completed"
+      "status": "Completed",
+      "image": "/assets/embedded-workbench.png",
+      "repo_url": "https://github.com/Rhaytou/embedded-workbench"
     },
     {
       "id": "lang-workbench",
@@ -189,7 +191,9 @@
         "languages": ["Python", "JavaScript", "Java", "C", "C++", "C#", "Go", "Rust", "PHP", "Bash", "x86-64 ASM", "ARM ASM", "RISC-V ASM"],
         "infrastructure": ["Docker", "Docker Compose", "Makefile"]
       },
-      "status": "Completed"
+      "status": "Completed",
+      "image": "/assets/lang-workbench.png",
+      "repo_url": "https://github.com/Rhaytou/lang-workbench"
     },
     {
       "id": "bitcoin-dev-kit",
@@ -211,7 +215,9 @@
         "frontend": ["React", "Vite", "JavaScript", "Vitest"],
         "infrastructure": ["Docker", "Docker Compose", "Nginx", "Makefile"]
       },
-      "status": "Completed"
+      "status": "Completed",
+      "image": "/assets/bitcoin-dev-kit.png",
+      "repo_url": "https://github.com/Rhaytou/bitcoin-dev-kit"
     },
     {
       "id": "ethereum-dev-kit",
@@ -233,7 +239,9 @@
         "frontend": ["React", "Vite", "JavaScript", "Vitest"],
         "infrastructure": ["Docker", "Docker Compose", "Nginx", "JWT", "Makefile"]
       },
-      "status": "Completed"
+      "status": "ethereum-dev-kit",
+      "image": "/assets/projects/agent-arch.png",
+      "repo_url": "https://github.com/Rhaytou/ethereum-dev-kit"
     },
     {
       "id": "multichain-block-explorer",
@@ -255,7 +263,9 @@
         "frontend": ["React", "Vite", "JavaScript", "Vitest"],
         "infrastructure": ["Docker", "Docker Compose", "Nginx", "Makefile"]
       },
-      "status": "Completed"
+      "status": "Completed",
+      "image": "/assets/multichain-block-explorer.png",
+      "repo_url": "https://github.com/Rhaytou/multichain-block-explorer"
     },
     {
       "id": "agent-arch",
@@ -278,7 +288,9 @@
         "databases": ["Postgres", "pgvector", "Redis"],
         "infrastructure": ["Docker", "Docker Compose", "Makefile"]
       },
-      "status": "Completed"
+      "status": "Completed",
+      "image": "/assets/agent-arch.png",
+      "repo_url": "https://github.com/Rhaytou/agent-arch"
     }
   ],
 
