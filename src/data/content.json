@@ -240,7 +240,7 @@
         "infrastructure": ["Docker", "Docker Compose", "Nginx", "JWT", "Makefile"]
       },
       "status": "ethereum-dev-kit",
-      "image": "/assets/projects/agent-arch.png",
+      "image": "/assets/ethereum-dev-kit.png",
       "repo_url": "https://github.com/Rhaytou/ethereum-dev-kit"
     },
     {
