@@ -12,11 +12,11 @@ function Portfolio() {
     <>
         <NavBar />
         <main>
-            <Hero    data={content.about} />
-            <Skills  data={content.skills} />
+            <Hero data={content.about} />
+            <Skills data={content.skills} />
             <Projects data={content.projects} />
             <Services data={content.services} />
-            <About   data={content.about} />
+            <About data={content.about} />
             <Contact data={content.contact} />
         </main>
     </>
